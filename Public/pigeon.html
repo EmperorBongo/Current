@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>The Pigeon Barn</title>
+</head>
+<body>
+    <header>
+        <h2>The Pigeon Barn</h2>
+    </header>
+    <nav>
+        <a href="./index.html">Pigeons</a>
+        <a href="./pigeon.html">Add Pigeon</a>
+    </nav>
+    
+    <h1>Add Pigeon</h1>
+    <form id="pigeon-form">
+        <input id="pigeon-name" type="text" placeholder="Name of pigeon">
+        <input id="pigeon-photo" type="text" placeholder="Paste URL of pigeon picture">
+        <input id="pigeon-color" type="text" placeholder="Color ">
+        <textarea id="pigeon-desc" rows="6" type="text" placeholder="Description of pigeon"></textarea>
+        <button>Add Pigeon!</button>
+    </form>
+
+    <div class="pigeon-container">
+        
+    </div>
+    
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./pigeon.js"></script>
+</body>
+</html>

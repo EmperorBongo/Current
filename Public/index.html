@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
-    <title>Current</title>
+    <title>ThePigeonBarn</title>
 </head>
 <body>
-    <header> 
-        <p id="site-title">Current</p>
+    <header>
+        <h2>The Pigeon Barn</h2>
+        <nav>
+            <a href="./index.html">Pigeons</a>
+            <a href="./pigeon.html">Add pigeon</a>
+        </nav>
     </header>
-    <section>
-        <form>
-            <input type="text" placeholder="blank Title">
-            <input type="text" placeholder="blank Title">
-            <button>Add</button>
-        </form>
-        <div id="Progressbar"></div>
-    </section>
+
+    <div class="pigeon-container" id="pigeon-container">
+
+    </div>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>
