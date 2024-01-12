@@ -17,36 +17,26 @@
     
     <h1>Add Pigeon</h1>
     <p>Please add the details of your Pigeon below</p>
-    <div id="progress-bar-container">
-        <div id="progress-bar"></div>
-    </div>
+    <div id="message-container"></div>
+    
     <form id="pigeon-form">
-        <div class="form-step" data-step="1">
-            <label for="pigeon-name">Name of pigeon:</label>
-            <input id="pigeon-name" type="text" placeholder="Name of pigeon">
-            <button class="next-step">Next</button>
-        </div>
-        <div class="form-step" data-step="2">
-            <label for="pigeon-photo">Paste URL of pigeon picture:</label>
-            <input id="pigeon-photo" type="text" placeholder="Paste URL of pigeon picture">
-            <button class="prev-step">Previous</button>
-            <button class="next-step">Next</button>
-        </div>
-        <div class="form-step" data-step="3">
-            <label for="pigeon-price">Price:</label>
-            <input id="pigeon-price" type="Number" placeholder="Price">
-            <button class="prev-step">Previous</button>
-            <button class="next-step">Next</button>
-        </div>
-        <div class="form-step" data-step="4">
-            <label for="pigeon-desc">Description of pigeon:</label>
-            <textarea id="pigeon-desc" rows="6" placeholder="Description of pigeon"></textarea>
-            <button class="prev-step">Previous</button>
-            <button type="submit">Add Pigeon!</button>
-        </div>
+        <label for="pigeon-name">Name of pigeon:</label>
+        <input id="pigeon-name" type="text" placeholder="Name of pigeon">
+        
+        <label for="pigeon-photo">Paste URL of pigeon picture:</label>
+        <input id="pigeon-photo" type="text" placeholder="Paste URL of pigeon picture">
+        
+        <label for="pigeon-color">Color:</label>
+        <input id="pigeon-color" type="text" placeholder="Color">
+
+        <label for="pigeon-desc">Description of pigeon:</label>
+        <textarea id="pigeon-desc" rows="6" placeholder="Description of pigeon"></textarea>
+        
+        <button type="submit">Add!</button>
     </form>
 
     <div class="pigeon-container"></div>
+    
     
     <script src="../node_modules/axios/dist/axios.min.js"></script>
     <script src="./pigeon.js"></script>

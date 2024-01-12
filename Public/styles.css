@@ -6,16 +6,15 @@
 }
 
 body {
-    background-color: rgb(76, 78, 83);
-    display: flex;
-    flex-direction: column;
+    background-color: #4c4e53; 
     align-items: center;
     padding: 20px;
     padding-top: 0px;
+    color: #ffffff; 
 }
 
 header {
-    background-color: #2ecc71; /* Green color */
+    background-color: #e67e22; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,27 +34,17 @@ a {
     text-decoration: none;
     color: white;
     border: 2px solid white;
-    padding: 4px;
+    padding: 8px;
     border-radius: 4px;
 }
 
 a:hover {
-    background-color: #3498db; /* Blue color */
+    background-color: #d35400; 
     color: black;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, div {
-    color: #333; /* Dark grey text color */
-}
-
-#progress-bar-container {
-    width: 100%;
-    margin: 20px 0;
-}
-
-#progress-bar {
-    height: 20px;
-    background-color: #2ecc71; /* Green color */
+    color: #ffffff; 
 }
 
 form {
@@ -65,150 +54,36 @@ form {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
-    background-color: #ffffff; /* White color */
-}
-
-.form-step {
-    display: none;
-}
-
-.form-step:first-child {
-    display: block;
+    background-color: #4c4e53; 
 }
 
 label {
     display: block;
     margin-bottom: 8px;
-    color: #333; /* Dark grey text color */
+    color: #ffffff; 
 }
 
 input, textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px; 
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 5px;
-}
-
-button {
-    height: 40px;
-    width: 100px;
-    border: 2px solid #2ecc71; /* Green border */
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 18px;
-    background-color: #2ecc71; /* Green color */
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #27ae60; /* Darker green color on hover */
-}* {
-    margin: 0;
-    padding: 0;
+    border: 1px solid #888;
+    border-radius: 4px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-body {
-    background-color: #3d3d3d; /* Dark grey background */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    padding-top: 0px;
-}
-
-header {
-    background-color: #ff6f61; /* Coral color */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
-    height: 50px;
-    width: 100vw;
-    font-size: large;
-}
-
-nav {
-    display: flex;
-    gap: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    border: 2px solid white;
-    padding: 4px;
-    border-radius: 4px;
-}
-
-a:hover {
-    background-color: #ffb74d; /* Amber color on hover */
-    color: black;
-}
-
-h1, h2, h3, h4, h5, h6, p, span, div {
-    color: #4d4d4d; /* Dark grey text color */
-}
-
-#progress-bar-container {
-    width: 100%;
-    margin: 20px 0;
-}
-
-#progress-bar {
-    height: 20px;
-    background-color: #ff6f61; /* Coral color */
-}
-
-form {
-    width: 100%;
-    max-width: 500px;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
-    background-color: #f9f9f9; /* Light grey background */
-}
-
-.form-step {
-    display: none;
-}
-
-.form-step:first-child {
-    display: block;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    color: #4d4d4d; /* Dark grey text color */
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 5px;
 }
 
 button {
     height: 40px;
-    width: 100px;
-    border: 2px solid #ff6f61; /* Coral border */
+    width: 100%;
+    border: 2px solid #e67e22; 
     border-radius: 5px;
     color: #ffffff;
     font-size: 18px;
-    background-color: #ff6f61; /* Coral color */
+    background-color: #e67e22; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #e65100; /* Darker coral color on hover */
+    background-color: #c0392b; 
 }
-

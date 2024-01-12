@@ -9,6 +9,7 @@ app.use(express.json())
 app.use(cors())
 
 app.post('/api/seed', seed)
+
 app.post('/api/addPigeon', addPigeon)
 app.get('/api/getPigeons', getPigeons)
 app.delete('/api/deletePigeon/:id', deletePigeon)
