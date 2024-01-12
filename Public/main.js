@@ -29,12 +29,12 @@ const createPigeon = (pigeon) => {
     myImage.src = pigeon.picture
 
     let description = document.createElement('p')
-    let pigeonColor = document.createElement('h4')
-    pigeonColor.textContent = `Purchase color: $${pigeon.color}`
+    let pigeonPrice = document.createElement('h4')
+    pigeonPrice.textContent = `Purchase Price: $${pigeon.price}`
     pigeon1.appendChild(pigeonHeader)
     pigeonHeader.appendChild(pigeonName)
     pigeon1.appendChild(myImage)
-    pigeon1.appendChild(pigeonColor)
+    pigeon1.appendChild(pigeonPrice)
     pigeon1.appendChild(description)
     pigeon1.appendChild(options)
     let check = document.createElement('input')
@@ -57,9 +57,11 @@ const createPigeon = (pigeon) => {
 }
 
 const getPigeons = () => {
+    alert('sucess')
     axios.get('http://localhost:9822/api/getPigeons')
     .then((res) => {
         console.log(res.data)
+        alert(res.data)
         res.data.forEach(createPigeon)
     })
     .catch((err) => {

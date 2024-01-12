@@ -2,14 +2,14 @@ const db = require('../database')
 
 module.exports = {
     addPigeon: (req, res) => {
-        const {name, picture, color, description} = req.body
+        const {name, picture, price, description} = req.body
         console.log(req.body)
         db.query(`
-            INSERT INTO pigeons (name, picture, color, description)
+            INSERT INTO pigeons (name, picture, price, description)
             VALUES (
                 '${name}',
                 '${picture}',
-                '${color}',
+                '${price}',
                 '${description}'
             )
             RETURNING *;
