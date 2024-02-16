@@ -1,2 +1,4 @@
-node_moudles
+node_moudles/
 .env
+notes.txt
+package-lock.json
